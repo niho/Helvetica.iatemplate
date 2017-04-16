@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.ia.writer.template.helvetica</string>
+	<string>com.niklasholmgren.template.helvetica</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -50,7 +50,11 @@
 	<integer>90</integer>
 	<key>IATemplateTitleFile</key>
 	<string>title</string>
+	<key>IATemplateAuthor</key>
+	<string>Niklas Holmgren</string>
+	<key>IATemplateAuthorURL</key>
+	<string>http://niklasholmgren.com/</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 Information Architects Inc. All rights reserved.</string>
+	<string>Copyright © 2017 Niklas Holmgren. All rights reserved.</string>
 </dict>
 </plist>
