@@ -461,12 +461,21 @@ blockquote {
   margin-right: calc((16 / 19) * -1em); /* 16px at width: 1080px */
   padding-left: calc((40 / 19) * 1em); /* 40px at width: 1080px */
   padding-right: calc((40 / 19) * 1em); /* 40px at width: 1080px */
-  font-style: italic;
+  font-size: calc((18 / 19) * 1em); /* 0.9474em = 18px @ font-size: 18px */
+  line-height: calc(31 / 18); /* 1.7222 = 31px @ font-size: 18px */
 }
 
 blockquote em strong,
 blockquote strong em {
   font-weight: 700;
+}
+
+/* Figures */
+
+figcaption {
+    font-style: normal;
+    font-size: calc((16 / 19) * 1em); /* 0.8421em = 16px @ font-size: 19px */
+    line-height: calc(25 / 16); /* 1.5625 = 25px @ font-size: 16px; */
 }
 
 /* Override core.css */
